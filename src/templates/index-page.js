@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -36,32 +35,8 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+        
+        
       </div>
     </div>
     <section className="section section--gradient">
@@ -74,20 +49,28 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
+                  
                 </div>
                 <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
+                  
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                <div className="has-text-centered has-text-weight-semibold is-size-5 index-page-text-block">
+                <p>You can ask us anything about your digital needs. 
+                  <br></br>
+                  <br></br>
+                  We are available to listen to you, and you don't need to know any technical terms. 
+                  <br></br>
+                  <br></br>
+                  In fact, you don't need to know anything technical at all.
+                  <br></br>
+                  <br></br>
+                   Just talk to us in your language - and we will listen.</p>
+                  <div className="contact-us-line">
+                    <p>Drop us an <a class="btn" href="mailto:justask@qd8solutions.com">Email</a> or use our <Link className="btn" to="/contact">Contact Form</Link>  and we'll get in touch</p>
+                  </div>
+                </div>
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
@@ -104,7 +87,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

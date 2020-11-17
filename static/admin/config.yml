@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: samuelwine/qd8solutions
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
