@@ -160,7 +160,7 @@ module.exports = {
                 'margin-top' : '1px',
                 position     : 'relative',
                 top          : '5px',
-                width        : '25px'
+                width        : '34px'
               }
             }
           }
