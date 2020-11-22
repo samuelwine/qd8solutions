@@ -215,6 +215,9 @@ $menu-label-color: $white-ter;
     color: skyblue;
 }
 
+
+
+
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -227,7 +230,10 @@ $menu-label-color: $white-ter;
 #footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 200%;
   height: 2.5rem;            /* Footer height */
 }
 
+.code {
+  padding: 0;
+}
