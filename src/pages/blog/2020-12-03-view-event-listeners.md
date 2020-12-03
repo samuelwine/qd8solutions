@@ -26,6 +26,7 @@ To no avail. It totally ignored all my valiant efforts and continued doing what 
 It was obvious by now that there was another event listener being called, but try as I might I couldn't find it anywhere....
 
 Until I found this:
+
 <img src="/img/chrome-event-listeners.png">
 
 Chrome (and possibly other browsers as well) will kindly list out all the event listeners to a specific event on a specific element.
