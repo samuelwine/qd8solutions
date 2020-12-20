@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'QD8 Solutions',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Quality architecture coupled with an exceptional user experience is a proven recipe for delivering professional results',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
