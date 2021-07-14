@@ -15,6 +15,8 @@ tags:
 
 ```--no-verify-ssl``` bypasses ssl certificate validation
 
+``` git config --global http.sslVerify false``` specifically for git
+
 
 
 
